@@ -1,3 +1,9 @@
 class Transfer
-  # your code here
+
+  def initialize(client1, client2, amount)
+
+  end
+
+
+  
 end
