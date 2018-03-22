@@ -1,9 +1,9 @@
 class Transfer
 
-  def initialize(client1, client2, amount)
+  def initialize(sender, receiver, amount)
 
   end
 
 
-  
+
 end
