@@ -9,7 +9,7 @@ class Transfer
   end
 
   def valid?
-    (sender.status == "open" && sender.balance > 0) && receiver.status == "open"
+    (sender.status == "open" && sender.balance > 0) && (receiver.status == "open" && receiver.balance > 0)
   end
 
 
