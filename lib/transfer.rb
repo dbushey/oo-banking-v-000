@@ -8,6 +8,10 @@ class Transfer
     @amount = amount
   end
 
+  def valid?
+    (sender.status == "open" && sender.balance > 0) && receiver.status == "open"
+  end
+
 
 
 end
